@@ -1,0 +1,24 @@
+@use "typography";
+@use "mixins" as *;
+@use "variables" as *;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: "NunitoSans", sans-serif;
+  color: $red;
+  @include tablet {
+    color: $blue;
+  }
+}
