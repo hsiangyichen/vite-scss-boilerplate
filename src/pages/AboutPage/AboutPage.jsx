@@ -1,4 +1,5 @@
-import "./PhotoDetailsPage.scss";
+import Main from "@/components/Main/Main";
+import "./AboutPage.scss";
 
 function AboutPage() {
   return (
